@@ -1,0 +1,47 @@
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+  color: beige;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu-link {
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.testimonials {
+  background-color: rgba(193, 202, 196, 1);
+  color: black;
+}
+.button-anmelden {
+  background-color: rgb(108, 177, 108);
+  color: black;
+  max-width: 500px;
+  border: none;
+  padding: 14px 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
