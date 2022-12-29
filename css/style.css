@@ -1,0 +1,69 @@
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+  color: beige;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu-link {
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.holder {
+  display: flex;
+  justify-content: center;
+}
+.holder-text-2 {
+  display: flex;
+  justify-content: center;
+}
+.holder-text-3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+}
+.text-1 {
+  text-align: center;
+}
+.social {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.testimonials {
+  background-color: rgba(193, 202, 196, 1);
+  color: black;
+}
+.button-anmelden {
+  background-color: rgb(199, 231, 18);
+  color: black;
+  max-width: 500px;
+  border: none;
+  padding: 14px 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+
+  transition: background-color 0.3s liner;
+}
+.button-anmelden:hover {
+  background-color: #7b8cc7;
+}
